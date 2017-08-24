@@ -3,3 +3,7 @@
 /.env
 /yarn.lock
 /package-lock.json
+
+# jetbrains
+.idea/
+.iml
