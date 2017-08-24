@@ -123,5 +123,6 @@ PGPubsub.prototype.close = function () {
   this.channels = [];
 };
 
+PGPubsub.Client = pg.Client;
 PGPubsub.types = pg.types;
 module.exports = PGPubsub;
